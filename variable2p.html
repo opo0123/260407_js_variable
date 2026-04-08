@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>변수 2 연습</title>
+  </head>
+  <body>
+    <script>
+      // 1. banana 변수선언 및 금액 할당
+      let banana = 5700;
+      let bananaCount = 4;
+      // 2. apple 변수선언 및 금액 할당
+      let apple = 2500;
+      let appleCount = 21;
+      // 3. mango 변수선언 및 금액 할당
+      let mango = 3200;
+      let mangoCount = 7;
+      // 4. total 변수선언 및 banana, apple, mango 다 더한 식 할당
+      let total =
+        (banana * bananaCount) + (apple * appleCount) + (mango * mangoCount);
+      // 화면에 "바나나, 사과, 망고를 다 더한 금액은 ... 입니다." 출력
+      document.write(
+        `<p>바나나, 사과, 망고를 다 더한 금액은 <span>${total}</span>원 입니다.</p>`,
+      );
+      // 콘솔
+      console.log(banana);
+      console.log(apple);
+      console.log(mango);
+      console.log(total);
+    </script>
+  </body>
+</html>
